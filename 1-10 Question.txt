@@ -1,0 +1,199 @@
+---------------------------------------ASSIGNMENT 1
+
+Use Numpy for the following tasks:
+1. Create an empty and a full array of size 3x3. 
+2. Generate an array of 25 random numbers sampled from a standard normal 
+distribution.
+3. Find Dot product of two arrays.
+4. Sort the below array along the row, along the column and as a whole.
+[3, 7, 1]
+[10, 3, 2]
+[5, 6, 7]
+5. Make a list of 3 numpy arrays and find the mean of all the numpy arrays and output 
+them as a list.
+6. Make a numpy array containing the string 'PHP C# Python C Java C++' as the only 
+element, then split it on the basis of spaces
+
+---------------------------------------ASSIGNMENT 2
+ 
+ • Install and Import Matplotlib Library. 
+Use Matplotlib library and the csv file provided to generate plots with the given instrucƟon
+below: 
+1. Read Total profit of all months and show it using a line plot. Total profit data 
+provided for each month. Generated line plot must include the following properƟes:
+a) X label name = Month Number 
+b) Y label name = Total profit 
+2. Get total profit of all months and show line plot with the following Style properƟes.
+Total profit data provided for each month (same as 1st quesƟon). Generated line plot
+must include following Style properƟes:
+a) Line Style doƩed and Line-color should be red 
+b) Show legend at the lower right locaƟon.
+c) X label name = Month Number 
+d) Y label name = Sold units number 
+e) Add a circle marker. 
+f) Line marker color as read 
+g) Line width should be 3 
+3. Display the number of units sold per month for each product using mulƟline plots.
+(i.e., Separate Plotline for each product). 
+4. Read toothpaste sales data of each month and show it using a scaƩer plot. Also, add a
+grid in the plot, gridline style should be “–“. 
+5. Read face cream and facewash product sales data and show it using the bar chart. The 
+bar chart should display the number of units sold per month for each product. Add a 
+separate bar for each product in the same chart.
+
+---------------------------------------ASSIGNMENT 3
+
+1. Perform Exploratory Data Analysis (EDA) for Iris Species Dataset provided as csv 
+file (you can also download it from: hƩps://www.kaggle.com/datasets/uciml/iris ). 
+Your EDA should include the following operaƟons:
+a. Show size of the dataset. 
+b. Show datatype for each column. 
+c. Show distribuƟon of data (use describe() funcƟon).
+d. Check if there are any null values. 
+e. Check for duplicates. 
+f. Check the number of instances for each species of flower. 
+g. Compare sepal length and sepal width. 
+h. Compare petal length and petal width. 
+i. Use pairplot to show all comparisons. 
+j. Use histograms to compare sepal length, sepal width, petal length and petal 
+width across the species. 
+k. Use boxplot to show distribuƟon of data across the species.
+l. Use violinplot to show distribuƟon of data across the species
+
+
+---------------------------------------ASSIGNMENT 4
+
+1. Write a python program to apply Decision Tree Classifier algorithm on the following 
+datasets using Scikit-learn.
+(Find the datasets attached along with this assignment
+
+---------------------------------------ASSIGNMENT 5
+
+1) Perform the following operation on the data set being provided of Used car Analysis-
+
+1. Data Preprocessing
+2. Data Visualization
+3. Explarotary Data Analysis
+4. Feature Selection and Transformation
+5. Train-Test-Split
+6. Model Creation (eg: Multiple Linear Regression)
+7. Model Prediction ( using Linear Regression from sklearn Library)
+
+
+---------------------------------------ASSIGNMENT 6
+
+
+Use Logistic Regression for Diabetic Datasets to predict the person is diabetic or not.
+Visualise confusion matrix.
+1. Use Logistic Regression for Diabetic Datasets to predict the person is diabetic or not.
+Visualise confusion matrix
+2. Find accuracy, precision, recall, F1 score
+
+Data Sets is:
+https://drive.google.com/drive/folders/1MV8BMQ-SuQTf_pJb1GkkbiVk-NJgO7I6?usp=drive_
+link
+
+					
+---------------------------------------ASSIGNMENT 7
+
+1. Write a python program to apply KNN (Classification + Regression) algorithm on the given datasets 
+using Scikit-learn and also plot accuracy and mean error vs k value for both. (Find the datasets attached 
+along with this assignment
+
+---------------------------------------ASSIGNMENT 8
+
+
+	Problem: 1
+
+You are given a dataset (data.csv) containing two columns - 'X' (independent variable) and 'y'
+(dependent variahle). Implement a simple linear regressinn model using Python to predict 'y' hased
+on 'X'. Load the dataset, split it into training and testing sets, and train the linear regression model.
+Finally, predict the values for the test set and calculate the mean squared error.
+
+	Problem:2
+
+You are provided with a dataset (data.csv) containing three columns - 'feature1', 'feature2', and
+'target' (binary classification). Implement a Decision Tree classifier using Python to predict the
+'target' based on the features. Load the dataset, split it into training and testing sets, and train the
+Decision Tree model. Finally, predict the values for the test set and calculate the accuracy.
+
+Dataset (data.csv):
+
+feature1, feature2, target
+
+1, 2, 0
+
+2, 4, 1
+
+3, 7, 0
+
+4, 9, 1
+
+5, 11, 0
+
+6, 16, 1
+
+
+Dataset (data.csv):
+
+X, y
+
+1, 2
+
+2, 4
+
+3, 7
+
+4,9
+
+5,11
+
+6,16
+
+	Problem:3
+
+You are analysing satellite images to identify different land cover types. You plan to use K-Means
+clustering to segment the image into regions with similar pixel intensities. Plot the diagram also.
+
+	Problem:4
+
+You are given a dataset (data.csv) containing three columns - 'feature1', 'feature2', and 'target'
+(binary classification). Implement a Random Forest classifier using Python to predict the 'target'
+based on the features. Load the dataset, split it into training and testing sets, and train the Random
+Forest model. Finally, predict the values for the test set and calculate the accuracy.
+
+Dataset (data.csv):
+
+feature1, feature2, target
+
+1, 2, 0
+
+2, 4, 1
+
+3, 7,0
+
+4,9, 1
+
+5,11, 0
+
+6,16, 1
+
+	Problem :5
+
+Scenario: You are building a machine learning model to classify handwritten digits from the MNIST
+dataset.
+
+Import libraries and data: Import necessary libraries like pandas, scikit-learn, and matplotlib. Load
+the MNIST dataset using sklearn datasets.
+
+---------------------------------------ASSIGNMENT 9
+
+1. Write a python program to apply Perceptron, SVM, Logistic Regression algorithm on the given data 
+sets using Scikit-learn and also plot accuracy and show the precision, recall, f1-score, support table.
+(Find the datasets attached along with this assignment
+
+---------------------------------------ASSIGNMENT 10
+
+Instagram Data
+
+Clean the data and generate an insight on different parameters present in the dataset and give a clear picture on how the Instagram influencer can get more reach? Which parameter is more important for the influencer to work upon and why? Give a detailed explanation with proper statistical proof
